@@ -52,7 +52,7 @@ def execute():
         t1.start()
         t1.join()
 
-times = raw_input('How many times to run the collector?(Each time upto 25 proxies):\n')
+times = raw_input('How many times to run the collector?(Each time upto 35 proxies):\n')
 for i in range(int(times)):
     execute()
     sleep(1)
