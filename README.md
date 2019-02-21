@@ -2,7 +2,7 @@
 A python script to generate infinite random proxy lists for use.<br>Python version: 2.7x
 # Usage
 $ python proxy list.py<br>
-How many times to run the collector?(Each time upto 25 proxies):<br>
+How many times to run the collector?(Each time upto 35 proxies):<br>
 30<br>
 ... {Displays proxy list}<br>
 ...<br>
