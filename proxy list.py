@@ -8,7 +8,7 @@ import urllib
 from time import sleep
 socket.setdefaulttimeout(5)
 
-class FuncThread(threading.Thread):
+class StartThread(threading.Thread):
     def __init__(self, target, *args):
         self._target = target
         self._args = args
@@ -48,7 +48,7 @@ def execute():
         lop += 1
         if lop == 1:
             continue
-        t1 = FuncThread(collect, i, target_source)
+        t1 = StartThread(collect, i, target_source)
         t1.start()
         t1.join()
 
