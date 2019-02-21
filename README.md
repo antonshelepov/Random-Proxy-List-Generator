@@ -1,4 +1,4 @@
-# Random-Proxy-List-Generator
+# Random Proxy List Generator
 A python script to generate infinite random proxy lists for use.<br>Python version: 2.7x
 # Usage
 $ python proxy list.py<br>
